@@ -1,5 +1,8 @@
 package com.example.spring01.service;
 
-public interface MovieService {
+import com.example.spring01.model.dto.MovieDTO;
 
+public interface MovieService {
+	
+	public void insertMovie (MovieDTO vo);
 }

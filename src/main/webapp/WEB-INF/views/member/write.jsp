@@ -11,6 +11,15 @@
 <title></title>
 </head>
 <body>
+  <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="${pageContext.request.contextPath}/resources/assets/img/portfolio/fullsize/5.jpg">
+                            <img class="img-fluid" src="${pageContext.request.contextPath}/resources/assets/img/portfolio/thumbnails/5.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
 	<div class="container">
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
@@ -32,6 +41,7 @@
 					<input type="submit" class="btn btn-primary form-control" value="회원가입">
 				</form>
 		</div>
+
 	</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>

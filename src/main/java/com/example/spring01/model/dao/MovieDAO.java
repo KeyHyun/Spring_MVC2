@@ -1,5 +1,10 @@
 package com.example.spring01.model.dao;
 
-public interface MovieDAO {
+import java.util.List;
 
+import com.example.spring01.model.dto.MovieDTO;
+
+public interface MovieDAO {
+	
+	public List<MovieDTO> movieList();
 }

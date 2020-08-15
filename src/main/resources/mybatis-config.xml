@@ -7,6 +7,8 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 <typeAliases>
 	<typeAlias
 	alias="memberDto" type="com.example.spring01.model.dto.MemberDTO"/>
+	<typeAlias
+	alias="movieDto" type="com.example.spring01.model.dto.MovieDTO"/>
 </typeAliases>
 
 </configuration>

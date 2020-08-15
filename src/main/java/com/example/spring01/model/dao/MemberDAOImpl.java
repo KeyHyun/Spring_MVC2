@@ -61,5 +61,9 @@ public class MemberDAOImpl implements MemberDAO {
 		if(count==1) result=true;
 		return result;
 	}
-
+	
+	@Override
+	public String loginCheck(MemberDTO vo) {
+		return sqlSession.selectOne("member.login_check", vo);
+	}
 }
